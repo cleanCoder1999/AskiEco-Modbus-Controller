@@ -110,9 +110,21 @@
     <None Include="AskiEco-Modbus-Controller.ino">
       <FileType>CppCode</FileType>
     </None>
+    <None Include="modbus-version.h.in" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="modbus-private.h" />
+    <ClInclude Include="modbus-tcp-private.h" />
+    <ClInclude Include="modbus-tcp.h" />
+    <ClInclude Include="modbus-version.h" />
+    <ClInclude Include="modbus.h" />
     <ClInclude Include="__vm\.AskiEco-Modbus-Controller.vsarduino.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="modbus-data.c" />
+    <ClCompile Include="modbus-rtu.c" />
+    <ClCompile Include="modbus-tcp.c" />
+    <ClCompile Include="modbus.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
