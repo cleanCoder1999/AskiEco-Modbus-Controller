@@ -16,40 +16,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="AskiEco-Modbus-Controller.ino" />
-    <None Include="modbus-version.h.in" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="__vm\.AskiEco-Modbus-Controller.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="modbus.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="modbus-private.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="modbus-tcp.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="modbus-tcp-private.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="modbus-version.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="modbus.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="modbus-data.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="modbus-rtu.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="modbus-tcp.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
