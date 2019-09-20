@@ -11,7 +11,6 @@
  * GLOBAL VARIABLES
  * */
 EthernetClient client;
-//ModbusTCPClient* arduino;
 ModbusTCPClient arduino(client);
 
 // INITIALISING
